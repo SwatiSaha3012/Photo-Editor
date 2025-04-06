@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Editing Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="image/logo.png" alt="Logo" class="logo"> <!-- Replace logo.png with your logo file -->
+        <h1 class="title">PicTweak</h1>
+      </div>
+  <div class="container">
+    <h1>Photo Editing Tool</h1>
+
+    <input type="file" id="imageUpload" accept="image/*">
+    <canvas id="canvas"></canvas>
+
+    <div class="buttons">
+      <button id="grayscaleBtn">Grayscale</button>
+      <button id="sepiaBtn">Sepia</button>
+      <button id="invertBtn">Invert</button>
+      <button id="brightnessBtn">Brightness/Contrast</button>
+      <button id="saturateBtn">Saturate</button>
+      <button id="resetBtn">Reset</button>
+      <button id="downloadBtn">Download</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
