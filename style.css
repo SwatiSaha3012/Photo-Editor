@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eff7f5;
+    background: linear-gradient(135deg,#153677,#4e085f);
+  }
+  /* Header section */
+.header {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the size of your logo */
+    height: 100px; /* Adjust the size of your logo */
+    margin-right: 20px; /* Space between logo and title */
+  }
+  
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: inherit;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white; /* Change color if necessary */
+  }
+  .container {
+    text-align: center;
+    background-color: #ecbfdc;
+    
+  }
+  
+  #canvas {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    max-width: 100%;
+    max-height: 400px;
+    background: white;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #257d75;
+    color: white;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
